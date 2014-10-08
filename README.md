@@ -5,14 +5,25 @@
 Callback function of Animation and Transition for css3
 
 ##Usage
-###transition callback
+
+###Link required files
+```html
+<!-- jquery -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+<!-- csscallbacks -->
+<script src="./dist/js/jquery.csscallbacks.min.js"></script>
+
 ```
+
+###Transition callback
+```js
 $(".hoge").transitionEnd(function(){
 	...
 });
 ```
-###animation callback
-```
+###Animation callback
+```js
 $(".hoge").animationEnd(function(){
 	...
 });
