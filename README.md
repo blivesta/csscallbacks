@@ -1,6 +1,6 @@
 #csscallback.js
 
-[![Build Status](https://travis-ci.org/blivesta/csscallback.svg?branch=master)](https://travis-ci.org/blivesta/csscallback)
+[![Build Status](https://travis-ci.org/blivesta/csscallbacks.svg?branch=master)](https://travis-ci.org/blivesta/csscallbacks)
 
 Callback function of Animation and Transition for css3
 
