@@ -1,0 +1,28 @@
+{
+  "name": "csscallbacks",
+  "description": ,
+  "version": "0.0.1",
+  "keywords": [
+    "css3",
+    "js",
+    "animation",
+    "transition",
+    "jquery",
+    "pligin"
+  ],
+  "homepage": "http://git.blivesta.com/csscallbacks",
+  "main": [
+    "dist/js/csscallbacks.js",
+    "dist/js/csscallbacks.min.js"
+  ],
+  "ignore": [
+    ".*",
+    "src",
+    "*.yml",
+    "*.json",
+    "Gruntfile.js"
+  ],
+  "dependencies": {
+    "jquery": ">= 1.11.0"
+  }
+}
