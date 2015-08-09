@@ -1,20 +1,30 @@
 {
   "name": "csscallbacks",
-  "author": "blivesta",
   "version": "0.0.2",
-  "url": "http://blivesta.github.io/csscallbacks/",
-  "author_url": "http://blivesta.com/",
-  "licenses": "MIT",
-  "source": "./src",
-  "docs": "./docs",
-  "dist": "./dist",
-  "public": "./docs",
+  "description": "Callback function of Animation and Transition for css3 with jquery.",
+  "keywords": [
+    "animation",
+    "transition",
+    "jquery",
+    "css",
+    "callback"
+  ],
+  "homepage": "https://github.com/blivesta/csscallbacks",
+  "bugs": {
+    "url": "https://github.com/blivesta/csscallbacks/issues"
+  },
+  "license": "MIT",
+  "main": "dist/csscallbacks.js",
   "repository": {
-    "user": "blivesta",
+    "url": "https://github.com/blivesta/csscallbacks.git",
     "type": "git"
   },
+  "author": "blivesta <enmt@blivesta.com> (http://blivesta.com/)",
+  "scripts":{
+    "setup": "npm i && gulp build"
+  },
   "dependencies": {
-    "jquery": ">= 1.11.0"
+    "jquery": ">= 1.7.0"
   },
   "devDependencies": {
     "browserify":"^11.0.0",

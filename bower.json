@@ -1,27 +1,26 @@
 {
   "name": "csscallbacks",
   "version": "0.0.2",
+  "description": "Callback function of Animation and Transition for css3 with jquery.",
   "keywords": [
-    "css3",
-    "js",
     "animation",
     "transition",
     "jquery",
-    "pligin"
+    "css",
+    "callback"
   ],
   "homepage": "http://git.blivesta.com/csscallbacks",
   "main": [
-    "dist/js/csscallbacks.js",
-    "dist/js/csscallbacks.min.js"
+    "dist/csscallbacks.js"
   ],
   "ignore": [
     ".*",
     "src",
     "*.yml",
     "*.json",
-    "Gruntfile.js"
+    "gulpfile.js"
   ],
   "dependencies": {
-    "jquery": ">= 1.11.0"
+    "jquery": ">= 1.7.0"
   }
 }
