@@ -11,10 +11,8 @@ Callback function of Animation and Transition for css3 with jquery
 ## Install
 
 ### Download
--
+- [csscallbacks](https://raw.githubusercontent.com/blivesta/csscallbacks/master/dist/csscallbacks.js)
 
-
-### CDN
 
 ### Package managers
 ```bash
@@ -29,28 +27,29 @@ npm i csscallbacks
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.3/jquery.min.js"></script>
 
 <!-- csscallbacks -->
-<script src="./dist/js/jquery.csscallbacks.min.js"></script>
+<script src="./dist/csscallbacks.min.js"></script>
 
 ```
 
-#### Transition end callback
+#### Transition End Callback
 ```js
 $(".hoge").csscallbacks('transitionEnd', function(){
 	...
 });
 ```
-###Animation start callback
+#### Animation Start Callback
 ```js
 $(".hoge").csscallbacks('animationStart', function(){
 	...
 });
 ```
-###Animation end callback
+
+#### Animation End Callback
 ```js
 $(".hoge").csscallbacks('animationEnd', function(){
 	...
 });
 ```
 
-##License
+## License
 Released under the MIT license.
