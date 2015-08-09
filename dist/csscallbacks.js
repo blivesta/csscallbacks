@@ -1,5 +1,5 @@
 /*!
- * csscallbacks v0.1.0
+ * csscallbacks v0.1.1
  * Callback function of Animation and Transition for css3 with jquery.
  * https://github.com/blivesta/csscallbacks
  * License : MIT
@@ -28,8 +28,6 @@
       type = _animationStart;
     } else if(type === 'animationEnd'){
       type = _animationEnd;
-    } else if(type === 'transitionStart'){
-      type = _transitionStart;
     } else if(type === 'transitionEnd'){
       type = _transitionEnd;
     }

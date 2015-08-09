@@ -1,6 +1,6 @@
 {
   "name": "csscallbacks",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Callback function of Animation and Transition for css3 with jquery.",
   "keywords": [
     "animation",
